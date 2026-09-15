@@ -3,6 +3,10 @@
 A tiny menu bar app for Singapore's daily prayer times. It counts down to the next prayer and notifies you
 10 minutes before and at each prayer time.
 
+<p align="center">
+  <img src="docs/screenshot.png" alt="Prayer Times menu showing today's timetable, with a menu bar countdown to Maghrib" width="340">
+</p>
+
 - **Menu bar countdown:** shows the next prayer, for example `Asar in 1h 12m`. Click it for today's full timetable.
 - **Two notifications per prayer** for Subuh, Zohor, Asar, Maghrib and Isyak:
   - **"10 minutes to Asar"**, with a soft chime
