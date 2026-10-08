@@ -84,8 +84,9 @@ The converter checks every day of the year and merges the new times into `Resour
 
 ## Customising
 
-- **Sounds:** replace `Resources/reminder.mp3` (the 10-minute chime) or `Resources/call_to_prayer.mp3`, then run
-  `./build.sh`. Keep each file short. If a file is missing, the app uses a built-in macOS sound instead.
+- **Sounds:** the repository doesn't include any sound files. To use your own, put `reminder.mp3` (the 10-minute
+  chime) and `call_to_prayer.mp3` in `Resources/`, then run `./build.sh`. Keep each file short. They are ignored by
+  Git. Without them the app uses built-in macOS sounds.
 - **Other cities:** `Resources/timetable.json` maps each date to its prayer times:
 
   ```json
@@ -114,7 +115,7 @@ The converter checks every day of the year and merges the new times into `Resour
 |---|---|
 | `Sources/main.swift` | The whole app |
 | `Resources/timetable.json` | Prayer times by date (Singapore time) |
-| `Resources/*.mp3` | Notification sounds |
+| `Resources/*.mp3` | Your own notification sounds (optional, not in the repository) |
 | `tools/parse_timetable.py` | Converts a yearly timetable PDF to JSON |
 | `tools/make_icon.swift` | Draws the app icon |
 | `build.sh` | Builds, signs, installs and launches the app |
@@ -124,10 +125,8 @@ The converter checks every day of the year and merges the new times into `Resour
 - **Prayer times:** the official
   [2026 Singapore prayer timetable](https://isomer-user-content.by.gov.sg/48/f989baef-c5eb-440e-b3bb-874626a0664e/Prayer%20timetable%202026.pdf)
   (gov.sg).
-- **Reminder sound:** "Notification 11" by soundreality on [Pixabay](https://pixabay.com/).
-- **Call to prayer:** from [Zedge](https://www.zedge.net/).
 
-The sound files belong to their creators and aren't covered by this project's license.
+This repository contains no audio files.
 
 ## License
 
