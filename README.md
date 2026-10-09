@@ -64,8 +64,8 @@ git pull && ./build.sh
 
 ### Next year's timetable
 
-The included timetable covers **1 January to 31 December 2026**. The menu warns you two weeks before it runs out.
-To add a new year:
+The included timetable covers **1 January 2026 to 31 December 2027**. The menu warns you two weeks before it runs out.
+To add a new year (2028 and later):
 
 1. Download the new yearly timetable PDF from the official Singapore prayer timetable source.
 2. Install `pdftotext`, which the converter uses:
@@ -77,7 +77,7 @@ To add a new year:
 3. Convert the PDF and rebuild:
 
    ```bash
-   tools/parse_timetable.py ~/Downloads/"Prayer timetable 2027.pdf" && ./build.sh
+   tools/parse_timetable.py ~/Downloads/"Prayer timetable 2028.pdf" && ./build.sh
    ```
 
 The converter checks every day of the year and merges the new times into `Resources/timetable.json`.
@@ -124,7 +124,7 @@ The converter checks every day of the year and merges the new times into `Resour
 
 - **Prayer times:** the official
   [2026 Singapore prayer timetable](https://isomer-user-content.by.gov.sg/48/f989baef-c5eb-440e-b3bb-874626a0664e/Prayer%20timetable%202026.pdf)
-  (gov.sg).
+  and the 2027 timetable from the same source (gov.sg).
 
 This repository contains no audio files.
 
