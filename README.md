@@ -3,6 +3,8 @@
 A tiny menu bar app for Singapore's daily prayer times. It counts down to the next prayer and notifies you
 10 minutes before and at each prayer time.
 
+Using Windows? See [Prayer Times for Windows](https://github.com/stdymuslim-spec/prayer-times-windows).
+
 <p align="center">
   <img src="docs/screenshot.png" alt="Prayer Times menu showing today's timetable, with a menu bar countdown to Maghrib" width="340">
 </p>
